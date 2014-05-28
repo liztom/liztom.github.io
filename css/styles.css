@@ -11,3 +11,7 @@ body {
   -moz-border-radius: 150px;
   background: url(../img/profile-pic.png) no-repeat;
 }
+
+.jumbo {
+  margin-bottom: 5px;
+}

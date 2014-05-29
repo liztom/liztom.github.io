@@ -8,17 +8,33 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 <body>  
+<div class="wrapper">
   <div class="container">
     <div class="jumbotron">
       <div class="row">
         <div class="col-md-8">
           <h1>Hello!</h1>
           <p>Hi! I'm Liz Tom. I'm currently a web development intern at Pop Art Inc. I love working with Ruby and have been working with Node.js recently. I enjoy traveling, trying new foods and tinkering with Arduino. Take a look around! I hope you enjoy what you see. </p>
+          <br><br>
           <p><strong>Currently working on:</strong></p> 
-          <p><a href="https://github.com/popart-dev/cx" class="btn btn-primary jumbo"> CX Cloud Transfer Utility</a></p> 
+          <p><a href="https://github.com/popart-dev/cx" class="btn btn-primary jumbo"> CX | Cloud Transfer Utility</a></p> 
         </div>
         <div class="col-md-4">
           <div class="circular"></div>
+          <div class="row">
+            <div class="col-md-3">
+              <a href="https://twitter.com/lizzletom"><div class="twitter"></div></a>
+            </div>
+            <div class="col-md-3">
+              <a href="http://www.imdb.com/name/nm2459828/?ref_=fn_al_nm_1"><div class="imdb"></div></a>
+            </div>
+            <div class="col-md-3">
+              <a href="http://www.linkedin.com/pub/liz-tom/26/416/863/"><div class="linkedin"></div></a>
+            </div>
+            <div class="col-md-3">
+              <a href="http://www.github.com/liztom"><div class="github"></div></a>
+            </div>
+          </div>
         </div>
       </div>
     </div> 
@@ -100,40 +116,37 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-    <p class="navbar-text">Contact Me at: liztom[at]gmail[dot]com</p>
-    </nav>
+    </div>    
   </div>
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Arduino Teensy Project</h4>
-      </div>
-      <div class="modal-body center-text video">
-        <iframe width="420" height="315" id="arduino-vid" src="http://www.youtube.com/embed/FxjPa9BjlTo" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer">
-       <strong> What you're hearing: </strong>
-          <p>((t*("46364689"[t>>13&7]&15))/12&128)
-              +(((((t>>12)^(t>>12)-2)%11*t)/4|t>>13)&127);</p>
-              
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Arduino Teensy Project</h4>
+        </div>
+        <div class="modal-body center-text video">
+          <iframe width="420" height="315" id="arduino-vid" src="http://www.youtube.com/embed/FxjPa9BjlTo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+         <strong> What you're hearing: </strong>
+            <p>((t*("46364689"[t>>13&7]&15))/12&128)+(((((t>>12)^(t>>12)-2)%11*t)/4|t>>13)&127);</p>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+  <div class="footer">
+        <p>Contact Me: liztom [at] gmail [dot] com</p>
+      </div>
 </div>
-
 </body>
 <script>
-var player = document.getElementById('arduino-vid'); 
-$('#myModal').on('hide.bs.modal', function () {
-  $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
-})
+  var player = document.getElementById('arduino-vid'); 
+  $('#myModal').on('hide.bs.modal', function () {
+    $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+  });
 </script>
 
 </html>

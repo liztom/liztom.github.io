@@ -1,6 +1,7 @@
 body { 
   padding-bottom: 70px;
   padding-top: 70px; 
+  height: 100%;
 }
 
 .circular {
@@ -10,7 +11,7 @@ body {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background: url(../img/profile-pic.png) no-repeat;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .jumbo {
@@ -23,4 +24,53 @@ body {
 
 .modal-footer {
   text-align: left;
+}
+
+.footer {
+  background-color: #18bc9c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding-top: 30px;
+  height: 80px;
+  width: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  margin: 0 auto -155px; 
+}
+
+.twitter {
+  margin-top: 15px;
+  background: url(../img/twitter-48.png) no-repeat;
+  background-color: #00ACED;
+  width: 48px;
+  height: 48px;
+}
+
+.linkedin {
+  margin-top: 15px;
+  background: url(../img/linkedin-48.png) no-repeat;
+  background-color: #007FB1;
+  width: 48px;
+  height: 48px;
+}
+
+.imdb {
+  margin-top: 15px;
+  background: url(../img/imdb-48-black.png) no-repeat;
+  background-color: #F3CE00;
+  width: 48px;
+  height: 48px;
+}
+
+.github {
+  margin-top: 15px;
+  background: url(../img/github-48.png) no-repeat;
+  background-color: black;
+  width: 48px;
+  height: 48px;
 }

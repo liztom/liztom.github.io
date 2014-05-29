@@ -16,3 +16,11 @@ body {
 .jumbo {
   margin-bottom: 5px;
 }
+
+.video {
+  text-align: center;
+}
+
+.modal-footer {
+  text-align: left;
+}

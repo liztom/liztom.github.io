@@ -78,3 +78,13 @@ body {
   width: 48px;
   height: 48px;
 }
+
+.project {
+  display: inline-block;
+}
+
+.panel {
+  position: relative;
+  display: block;
+}
+

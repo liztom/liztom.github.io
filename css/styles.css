@@ -44,6 +44,7 @@ body {
 }
 
 .twitter {
+  margin-left: 10px;
   margin-top: 15px;
   background: url(../img/twitter-48.png) no-repeat;
   background-color: #00ACED;
@@ -52,6 +53,7 @@ body {
 }
 
 .linkedin {
+  margin-left: 10px;
   margin-top: 15px;
   background: url(../img/linkedin-48.png) no-repeat;
   background-color: #007FB1;
@@ -60,6 +62,7 @@ body {
 }
 
 .imdb {
+  margin-left: 10px;
   margin-top: 15px;
   background: url(../img/imdb-48-black.png) no-repeat;
   background-color: #F3CE00;
@@ -68,6 +71,7 @@ body {
 }
 
 .github {
+  margin-left: 10px;
   margin-top: 15px;
   background: url(../img/github-48.png) no-repeat;
   background-color: black;
